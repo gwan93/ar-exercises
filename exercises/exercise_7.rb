@@ -26,4 +26,6 @@ puts "----------"
 
 store_name = gets.chomp.to_s
 
-Store.create(name: store_name, annual_revenue: -5, mens_apparel: false, womens_apparel: true)
+storecreate = Store.create(name: store_name, annual_revenue: -5)
+puts storecreate.errors.full_messages
+# Store.create(name: store_name, annual_revenue: -5, mens_apparel: false, womens_apparel: true)
