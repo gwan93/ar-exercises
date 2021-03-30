@@ -20,10 +20,10 @@ puts "----------"
 # 3. Add some data into employees. Here's an example of one (note how it differs from how you create stores): `@store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)`
 # 4. Go ahead and create some more employees using the create method. You can do this by making multiple calls to create (like you have before.) No need to assign the employees to variables though. Create them through the `@store#` instance variables that you defined in previous exercises. Create a bunch under `@store1` (Burnaby) and `@store2` (Richmond). Eg: `@store1.employees.create(...)`.
 
-@store1.employees.create(first_name: "Alice", last_name: "Aliz", hourly_rate: 10)
-@store1.employees.create(first_name: "Bob", last_name: "Bawb", hourly_rate: 10)
-@store1.employees.create(first_name: "Carol", last_name: "Cairel", hourly_rate: 10)
-@store2.employees.create(first_name: "David", last_name: "Duveed", hourly_rate: 11)
-@store2.employees.create(first_name: "Eddie", last_name: "Ed", hourly_rate: 11)
-@store2.employees.create(first_name: "Fred", last_name: "Ferad", hourly_rate: 11)
-@store2.employees.create(first_name: "Gabby", last_name: "Ghabi", hourly_rate: 11)
+@store1.employees.create(first_name: "Alice", last_name: "Aliz", hourly_rate: 51)
+@store1.employees.create(first_name: "Bob", last_name: "Bawb", hourly_rate: 52)
+@store1.employees.create(first_name: "Carol", last_name: "Cairel", hourly_rate: 53)
+@store2.employees.create(first_name: "David", last_name: "Duveed", hourly_rate: 54)
+@store2.employees.create(first_name: "Eddie", last_name: "Ed", hourly_rate: 55)
+@store2.employees.create(first_name: "Fred", last_name: "Ferad", hourly_rate: 56)
+@store2.employees.create(first_name: "Gabby", last_name: "Ghabi", hourly_rate: 57)
