@@ -24,8 +24,7 @@ puts "----------"
 # 3. Attempt to create a store with the inputted name but leave out the other fields (annual_revenue, mens_apparel, and womens_apparel)
 # 4. Display the error messages provided back from ActiveRecord to the user (one on each line) after you attempt to save/create the record
 
-store_name = gets.chomp.to_s
-
+# store_name = gets.chomp.to_s
+store_name = "Awesome Store"
 storecreate = Store.create(name: store_name, annual_revenue: -5)
 puts storecreate.errors.full_messages
-# Store.create(name: store_name, annual_revenue: -5, mens_apparel: false, womens_apparel: true)
