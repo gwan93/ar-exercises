@@ -21,7 +21,7 @@ else
 end
 
 # Make sure empty stores can be destroyed
-@empty_store = Store.create!(name: 'Test Empty Store', annual_revenue: 0)
+@empty_store = Store.create!(name: 'Test Empty Store', annual_revenue: 0, mens_apparel: true)
 if @empty_store.destroy
   puts "Empty Store destroyed! This is good"
 else
